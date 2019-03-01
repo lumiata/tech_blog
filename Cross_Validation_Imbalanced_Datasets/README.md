@@ -1,6 +1,6 @@
 Data and code related to our blog post on Medium: https://medium.com/@Lumiata
 <br>
-<bold> Authored by </bold>: Anusha Mohan, Data Scientist at Lumiata
+**Authored by**: *Anusha Mohan, Data Scientist at Lumiata*
 
 ## Notebooks
  - `Breast_cancer_data_processing.ipynb`: This notebook shows the pre-processing steps taken to clean the data as well as make it severely imbalanced
