@@ -1,2 +1,5 @@
 # Lumiata Tech Blog
-Repository for all code related to articles published on the Lumiata Tech Blog (https://medium.com/@Lumiata)
+Repository for all code related to blog posts published on the Lumiata Tech Blog (https://medium.com/@Lumiata)
+
+## Blogs
+ - "Cross Validation for Imbalanced Datasets": https://medium.com/@Lumiata
