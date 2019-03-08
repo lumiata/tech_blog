@@ -1,4 +1,4 @@
-Data and code related to our blog post on Medium: https://medium.com/lumiata/cross-validation-for-imbalanced-datasets-9d203ba47e8
+Data and code related to our blog post on Medium: <a href="https://medium.com/lumiata/cross-validation-for-imbalanced-datasets-9d203ba47e8"> Cross-Validation for Imbalanced Datasets </a>
 <br>
 **Authored by**: *Anusha Mohan, Data Scientist at Lumiata*
 
