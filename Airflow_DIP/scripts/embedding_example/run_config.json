@@ -1,0 +1,18 @@
+[
+  ["load_data", [
+    "scripts.embedding_example.load_data", "--train-url", "https://download.mlcc.google.com/mledu-datasets/sparse-data-embedding/train.tfrecord",
+    "--test-url",  "https://download.mlcc.google.com/mledu-datasets/sparse-data-embedding/test.tfrecord"
+  ]],
+  ["get_informative_terms", ["scripts.embedding_example.get_informative_terms"]],
+  ["train", [
+    "scripts.embedding_example.train_embedding",
+    "--input", "~/.keras/datasets/train.tfrecord",
+    "--informative-terms", "~/.keras/datasets/terms.txt",
+    "--output", "/tmp/embedding_model"]],
+  ["eval",["scripts.embedding_example.evaluate_embedding",
+    "--train-input", "~/.keras/datasets/train.tfrecord",
+    "--test-input", "~/.keras/datasets/test.tfrecord",
+    "--model-folder", "/tmp/embedding_model",
+    "--informative-terms", "~/.keras/datasets/terms.txt",
+    "--output", "/tmp/embedding_report"]]
+]
