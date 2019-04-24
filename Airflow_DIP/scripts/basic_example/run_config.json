@@ -1,0 +1,5 @@
+[
+  ["create", ["scripts.basic_example.create_file", "--output", "/tmp/test"]],
+  ["copy",   ["scripts.basic_example.copy_file", "--input", "/tmp/test",
+              "--output", "/tmp/test_out"]]
+]
