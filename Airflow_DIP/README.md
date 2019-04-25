@@ -9,8 +9,8 @@ From a single template we can generate very complex graphs of scripts.
 
 # Setup
 
-This installation suppose you have python3 and virtualenv installed.
-All the command are run from the repository home folder.
+This installation supposes you have Python 3 and `virtualenv` installed.
+All the commands are run from the `Airflow_DIP` home folder.
 
 Create a virtualenv
 
@@ -24,7 +24,7 @@ export SLUGIFY_USES_TEXT_UNIDECODE=yes
 pip install -r requirements.txt
 ```
 
-If you are using Python 3.7, also run this command:
+If you are using Python 3.7, update the `tenacity` package to avoid errors:
 ```bash
 pip install tenacity==5.0.2
 ```
@@ -86,7 +86,7 @@ on the left of the DAG's name. Then click on the on the leftmost button (`Play`)
 
 You can see the output from each run in the `logs` directory that is generated.
 This includes model performance metrics where appropriate, for example in the `eval`
-script of the `embedding_dag`.
+output when running `embedding_dag` example.
 
 # Build your own!
 
