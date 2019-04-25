@@ -84,7 +84,9 @@ To run each example from the UI you need to activate it, using the OFF/ON switch
 on the left of the DAG's name. Then click on the on the leftmost button (`Play`) in the 
 `Links` column.
 
-You can see the output from each run in the `logs` directory that is generated.
+Output file locations for each example could be found in their run configurations.
+Also from each DAG Graph View in the Airflow UI it is possible to click on a single task
+and access its logs, available also in the `logs` directory that is generated.
 This includes model performance metrics where appropriate, for example in the `eval`
 output when running `embedding_dag` example.
 
