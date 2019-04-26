@@ -1,2 +1,2 @@
 tensorflow==1.13.1
-apache-airflow==1.10.3
+apache-airflow==1.10.2
