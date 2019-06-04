@@ -9,4 +9,4 @@ pip install -r requirements.txt
 ```
 
 # Notebook
-The Jupyter Notebook named `Individual_Model_Blog_Code.ipynb` contains the code to generate the plots shown in the blog post
+The Jupyter Notebook named `Individual_Model_Blog_Code.ipynb` contains the code to generate the plots shown in the blog post.
