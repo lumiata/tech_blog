@@ -1,5 +1,5 @@
 This repository contains code to generate graphs for out post on Medium: 
-<a href=""> Optimizing Individual-Level Models for Group Level Predictions</a>, by Hilaf Hasson
+<a href="https://medium.com/lumiata/optimizing-individual-level-models-for-group-level-predictions-655243e88344"> Optimizing Individual-Level Models for Group-Level Predictions</a>, by Hilaf Hasson
 <br>
 
 # Setup
