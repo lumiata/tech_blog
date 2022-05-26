@@ -1,2 +1,2 @@
-tensorflow==1.15.2
+tensorflow==2.7.2
 apache-airflow==1.10.6
